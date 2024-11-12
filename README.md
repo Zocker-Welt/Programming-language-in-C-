@@ -1,4 +1,4 @@
-# This is a WIP project.
+# This is a WIP project (v0.1.2)
 
 **Examples**
 Create a string variable and change it
