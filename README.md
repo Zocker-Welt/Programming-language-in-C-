@@ -1,6 +1,7 @@
 # This is a WIP project (v0.1.2)
 
 **Examples**
+
 Create a string variable and change it (no variables)
 ```
 string str << text goes here
