@@ -2,11 +2,7 @@
 #include <string>
 #include <map>
 
-void outMain(
-    std::string line,
-    std::map<std::string, std::string> strings,
-    std::map<std::string, int> ints
-    ) {
+void outMain(std::string line) {
     /*
     Command
     out << t&text

@@ -4,8 +4,8 @@
 
 // Libs
 #include "String.cpp"
-#include "Console.cpp"
 #include "Int.cpp"
+#include "Console.cpp"
 
 int main() {
     std::vector<std::string> code = {
@@ -30,7 +30,7 @@ int main() {
         else if (line.substr(0, 3) == "int") {
             /*
             Commands:
-        
+
             int integer << 456
             Make and change int variables
             */
@@ -46,7 +46,8 @@ int main() {
             out << s&str
             Output string variable
             */
-            outMain(line, strings, ints);
+            //outMain(line, strings, ints);
+            outMain(line);
         }
     }
 
